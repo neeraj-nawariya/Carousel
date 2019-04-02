@@ -24,7 +24,7 @@
                         <asp:Repeater ID="mylist" runat="server">
                             <ItemTemplate>
                                 <div>
-                                    <asp:Image ID="Image1" runat="server" Height="175px" Width="150px" ImageUrl='<%# Eval("photopath","/img/{0}") %>' /><br />
+                                    <asp:Image ID="Image1" runat="server" Height="160px" Width="180px" ImageUrl='<%# Eval("photopath","/img/{0}") %>' /><br />
                                     <asp:Label ID="lbl" runat="server" Text='<%# Bind("photoname") %>'></asp:Label>
                                 </div>
                             </ItemTemplate>
